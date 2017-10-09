@@ -1,0 +1,179 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/sepia/labs/projetCloud/application/GenerateurDonnees-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/logback-classic-1.1.8.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/sepia/labs/projetCloud/application/GenerateurDonnees-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/slf4j-log4j12-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.3.RELEASE)
+
+2017-09-30 08:46:53.052  INFO 26074 --- [           main] o.p.g.g.w.GenerateurDonneesApplication   : Starting GenerateurDonneesApplication v0.0.1-SNAPSHOT on Sepia with PID 26074 (/home/sepia/labs/projetCloud/application/GenerateurDonnees-0.0.1-SNAPSHOT.jar started by root in /home/sepia/labs/projetCloud/application)
+2017-09-30 08:46:53.057  INFO 26074 --- [           main] o.p.g.g.w.GenerateurDonneesApplication   : No active profile set, falling back to default profiles: default
+2017-09-30 08:46:53.181  INFO 26074 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ed6993a: startup date [Sat Sep 30 08:46:53 CEST 2017]; root of context hierarchy
+2017-09-30 08:46:54.683  INFO 26074 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-09-30 08:46:55.340  INFO 26074 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-09-30 08:46:55.358  INFO 26074 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-09-30 08:46:55.360  INFO 26074 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-09-30 08:46:55.466  INFO 26074 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-09-30 08:46:55.466  INFO 26074 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2301 ms
+2017-09-30 08:46:55.674  INFO 26074 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-30 08:46:55.682  INFO 26074 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-30 08:46:55.682  INFO 26074 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-30 08:46:55.682  INFO 26074 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-30 08:46:55.682  INFO 26074 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-30 08:46:55.879  INFO 26074 --- [           main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092, localhost:9093]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 0
+
+2017-09-30 08:46:55.922  INFO 26074 --- [           main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092, localhost:9093]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 0
+
+2017-09-30 08:46:55.924  INFO 26074 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 0.10.0.0
+2017-09-30 08:46:55.925  INFO 26074 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : b8642491e78c5a13
+2017-09-30 08:46:56.070  INFO 26074 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-09-30 08:46:56.077  INFO 26074 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-09-30 08:46:56.118  INFO 26074 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-09-30 08:46:56.180  INFO 26074 --- [           main] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/websocket/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-09-30 08:46:56.193  INFO 26074 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2017-09-30 08:46:56.472  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ed6993a: startup date [Sat Sep 30 08:46:53 CEST 2017]; root of context hierarchy
+2017-09-30 08:46:56.545  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String org.polytech.gi2017.generateur.webservice.ControlleurPages.index(org.springframework.ui.Model)
+2017-09-30 08:46:56.552  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/globale/generation/encours],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.generationEnCours()
+2017-09-30 08:46:56.554  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/globale/generation/arreter]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.arreterGeneration()
+2017-09-30 08:46:56.554  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier/ajouter-maisons]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.ajouterMaisons(int,int,int)
+2017-09-30 08:46:56.554  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier/supprimer-maisons]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.supprimerMaisons(int,int,int)
+2017-09-30 08:46:56.555  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/type],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.listeTypesMaison()
+2017-09-30 08:46:56.555  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/type],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.creerTypeMaison(java.lang.String)
+2017-09-30 08:46:56.555  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/type/{id}],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.getTypeMaison(int)
+2017-09-30 08:46:56.555  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/type/{id}],methods=[DELETE]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.supprimerTypeMaison(int)
+2017-09-30 08:46:56.556  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/type/{id}],methods=[PUT]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.modifierTypeMaison(int,java.lang.String)
+2017-09-30 08:46:56.556  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.listeQuartiers()
+2017-09-30 08:46:56.556  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier/{id}],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.getQuartier(int)
+2017-09-30 08:46:56.556  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.creerQuartier(java.lang.String)
+2017-09-30 08:46:56.557  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier/{id}],methods=[PUT]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.modifierQuartier(java.lang.String)
+2017-09-30 08:46:56.557  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier/{id}],methods=[DELETE]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.supprimerQuartier(int)
+2017-09-30 08:46:56.557  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier/{id}/stopper]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.mettreQuartierEnPause(int)
+2017-09-30 08:46:56.559  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier/{id}/demarrer]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.demarrerQuartier(int)
+2017-09-30 08:46:56.560  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier/{id}/relancer]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.relancerQuartier(int)
+2017-09-30 08:46:56.562  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/quartier/{id}/baisser-conso]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.baisserConsoQuartier(int)
+2017-09-30 08:46:56.563  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/globale/generation/demarrer]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.demarrerGeneration()
+2017-09-30 08:46:56.563  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/globale/horloge/stopper]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.stopperHorloge()
+2017-09-30 08:46:56.564  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/globale/horloge/relancer]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.relancerHorloge()
+2017-09-30 08:46:56.564  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/config],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.getConfigGlobaleAsList()
+2017-09-30 08:46:56.564  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/config/{id}],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.getConfigGlobale(int)
+2017-09-30 08:46:56.565  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/config],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.creerConfigGlobale()
+2017-09-30 08:46:56.565  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/config/{id}],methods=[PUT]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.polytech.gi2017.generateur.webservice.ControlleurRest.changerConfigGlobale(java.lang.String)
+2017-09-30 08:46:56.569  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-30 08:46:56.569  INFO 26074 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-30 08:46:56.685  INFO 26074 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-30 08:46:56.685  INFO 26074 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-30 08:46:56.755  INFO 26074 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-30 08:46:56.783  INFO 26074 --- [           main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2017-09-30 08:46:56.929  INFO 26074 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-09-30 08:46:56.935  INFO 26074 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-09-30 08:46:56.936  INFO 26074 --- [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-09-30 08:46:56.936  INFO 26074 --- [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-09-30 08:46:56.936  INFO 26074 --- [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-09-30 08:46:56.984  INFO 26074 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-09-30 08:46:56.991  INFO 26074 --- [           main] o.p.g.g.w.GenerateurDonneesApplication   : Started GenerateurDonneesApplication in 4.518 seconds (JVM running for 5.09)
+
+

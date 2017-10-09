@@ -1,0 +1,18 @@
+#Port sur lequel l'application sera disponible
+port 8080
+
+#Intervalle de temps (en secondes) avec lequel les donnees seront generees. Ce parametre ne tient pas compte de l'echelle
+intervalle-envoi 3600
+
+#Acceleration du temps
+#Fixer ce parametre a 100 signifie que le temps dans la simulation s'ecoulera 100 fois plus vite que dans la vie reelle
+echelle-temps 3600
+
+#Adresse des machines sur lesquelles sont installees Kafka
+kafka-brokers localhost:9092,localhost:9093
+
+#Topic sur lequel il faut envoyer les donnees
+kafka-topic conso-maisons
+
+#Fichier dans lequel il faut sauvegarder l'etat actuel du generateur
+database-file database.json
