@@ -1,3 +1,3 @@
 # SmartCity
 
-Cloud, Hadoop, Spark, Kafka, Zookeeper, ElasticSearch, Kibana, SpringBoot, Java, JavaScript, AngularJS
+Cloud, Machine Learning, Hadoop, Spark, Kafka, Zookeeper, ElasticSearch, Kibana, Springboot, Java, JavaScript, AngularJS
