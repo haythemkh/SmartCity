@@ -1,0 +1,14 @@
+oct. 22, 2017 10:58:18 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFOS: Registering org.apache.hadoop.yarn.server.resourcemanager.webapp.JAXBContextResolver as a provider class
+oct. 22, 2017 10:58:18 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFOS: Registering org.apache.hadoop.yarn.server.resourcemanager.webapp.RMWebServices as a root resource class
+oct. 22, 2017 10:58:18 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory register
+INFOS: Registering org.apache.hadoop.yarn.webapp.GenericExceptionHandler as a provider class
+oct. 22, 2017 10:58:18 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFOS: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+oct. 22, 2017 10:58:19 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFOS: Binding org.apache.hadoop.yarn.server.resourcemanager.webapp.JAXBContextResolver to GuiceManagedComponentProvider with the scope "Singleton"
+oct. 22, 2017 10:58:24 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFOS: Binding org.apache.hadoop.yarn.webapp.GenericExceptionHandler to GuiceManagedComponentProvider with the scope "Singleton"
+oct. 22, 2017 10:58:33 PM com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory getComponentProvider
+INFOS: Binding org.apache.hadoop.yarn.server.resourcemanager.webapp.RMWebServices to GuiceManagedComponentProvider with the scope "Singleton"

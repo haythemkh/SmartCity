@@ -1,0 +1,247 @@
+[2017-10-22 18:00:02,319] INFO KafkaConfig values: 
+	advertised.host.name = null
+	metric.reporters = []
+	quota.producer.default = 9223372036854775807
+	offsets.topic.num.partitions = 50
+	log.flush.interval.messages = 9223372036854775807
+	auto.create.topics.enable = true
+	controller.socket.timeout.ms = 30000
+	log.flush.interval.ms = null
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	replica.socket.receive.buffer.bytes = 65536
+	min.insync.replicas = 1
+	replica.fetch.wait.max.ms = 500
+	num.recovery.threads.per.data.dir = 1
+	ssl.keystore.type = JKS
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	default.replication.factor = 1
+	ssl.truststore.password = null
+	log.preallocate = false
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	fetch.purgatory.purge.interval.requests = 1000
+	ssl.endpoint.identification.algorithm = null
+	replica.socket.timeout.ms = 30000
+	message.max.bytes = 1000012
+	num.io.threads = 8
+	offsets.commit.required.acks = -1
+	log.flush.offset.checkpoint.interval.ms = 60000
+	delete.topic.enable = false
+	quota.window.size.seconds = 1
+	ssl.truststore.type = JKS
+	offsets.commit.timeout.ms = 5000
+	quota.window.num = 11
+	zookeeper.connect = localhost:2181
+	authorizer.class.name = 
+	num.replica.fetchers = 1
+	log.retention.ms = null
+	log.roll.jitter.hours = 0
+	log.cleaner.enable = true
+	offsets.load.buffer.size = 5242880
+	log.cleaner.delete.retention.ms = 86400000
+	ssl.client.auth = none
+	controlled.shutdown.max.retries = 3
+	queued.max.requests = 500
+	offsets.topic.replication.factor = 3
+	log.cleaner.threads = 1
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	socket.request.max.bytes = 104857600
+	ssl.trustmanager.algorithm = PKIX
+	zookeeper.session.timeout.ms = 6000
+	log.retention.bytes = -1
+	log.message.timestamp.type = CreateTime
+	sasl.kerberos.min.time.before.relogin = 60000
+	zookeeper.set.acl = false
+	connections.max.idle.ms = 600000
+	offsets.retention.minutes = 1440
+	replica.fetch.backoff.ms = 1000
+	inter.broker.protocol.version = 0.10.0-IV1
+	log.retention.hours = 168
+	num.partitions = 1
+	broker.id.generation.enable = true
+	listeners = PLAINTEXT://0.0.0.0:9093
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	log.roll.ms = null
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	ssl.cipher.suites = null
+	log.index.size.max.bytes = 10485760
+	ssl.keymanager.algorithm = SunX509
+	security.inter.broker.protocol = PLAINTEXT
+	replica.fetch.max.bytes = 1048576
+	advertised.port = null
+	log.cleaner.dedupe.buffer.size = 134217728
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	log.cleaner.io.buffer.size = 524288
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	zookeeper.connection.timeout.ms = 6000
+	controlled.shutdown.retry.backoff.ms = 5000
+	log.roll.hours = 168
+	log.cleanup.policy = delete
+	host.name = 
+	log.roll.jitter.ms = null
+	max.connections.per.ip = 2147483647
+	offsets.topic.segment.bytes = 104857600
+	background.threads = 10
+	quota.consumer.default = 9223372036854775807
+	request.timeout.ms = 30000
+	log.message.format.version = 0.10.0-IV1
+	log.index.interval.bytes = 4096
+	log.dir = /tmp/kafka-logs
+	log.segment.bytes = 1073741824
+	log.cleaner.backoff.ms = 15000
+	offset.metadata.max.bytes = 4096
+	ssl.truststore.location = null
+	group.max.session.timeout.ms = 300000
+	ssl.keystore.password = null
+	zookeeper.sync.time.ms = 2000
+	port = 9092
+	log.retention.minutes = null
+	log.segment.delete.delay.ms = 60000
+	log.dirs = /tmp/kafka-logs-2
+	controlled.shutdown.enable = true
+	compression.type = producer
+	max.connections.per.ip.overrides = 
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	auto.leader.rebalance.enable = true
+	leader.imbalance.check.interval.seconds = 300
+	log.cleaner.min.cleanable.ratio = 0.5
+	replica.lag.time.max.ms = 10000
+	num.network.threads = 3
+	ssl.key.password = null
+	reserved.broker.max.id = 1000
+	metrics.num.samples = 2
+	socket.send.buffer.bytes = 102400
+	ssl.protocol = TLS
+	socket.receive.buffer.bytes = 102400
+	ssl.keystore.location = null
+	replica.fetch.min.bytes = 1
+	broker.rack = null
+	unclean.leader.election.enable = true
+	sasl.enabled.mechanisms = [GSSAPI]
+	group.min.session.timeout.ms = 6000
+	log.cleaner.io.buffer.load.factor = 0.9
+	offsets.retention.check.interval.ms = 600000
+	producer.purgatory.purge.interval.requests = 1000
+	metrics.sample.window.ms = 30000
+	broker.id = 1
+	offsets.topic.compression.codec = 0
+	log.retention.check.interval.ms = 300000
+	advertised.listeners = PLAINTEXT://0.0.0.0:9093
+	leader.imbalance.per.broker.percentage = 10
+ (kafka.server.KafkaConfig)
+[2017-10-22 18:00:03,421] INFO starting (kafka.server.KafkaServer)
+[2017-10-22 18:00:03,549] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2017-10-22 18:00:06,377] INFO Loading logs. (kafka.log.LogManager)
+[2017-10-22 18:00:07,142] INFO Completed load of log conso-maison-0 with log end offset 3 (kafka.log.Log)
+[2017-10-22 18:00:07,447] INFO Completed load of log conso-maisons-0 with log end offset 96138 (kafka.log.Log)
+[2017-10-22 18:00:07,476] INFO Logs loading complete. (kafka.log.LogManager)
+[2017-10-22 18:00:08,283] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2017-10-22 18:00:08,597] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2017-10-22 18:00:10,516] INFO Awaiting socket connections on 0.0.0.0:9093. (kafka.network.Acceptor)
+[2017-10-22 18:00:10,546] INFO [Socket Server on Broker 1], Started 1 acceptor threads (kafka.network.SocketServer)
+[2017-10-22 18:00:10,800] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:00:10,801] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:00:11,278] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:00:11,279] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:00:11,332] INFO [GroupCoordinator 1]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2017-10-22 18:00:11,332] INFO [GroupCoordinator 1]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2017-10-22 18:00:11,471] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-10-22 18:00:11,471] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-10-22 18:00:11,477] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 117 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-10-22 18:00:11,479] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2017-10-22 18:00:11,577] INFO Creating /brokers/ids/1 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:00:11,696] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:00:11,705] INFO Registered broker 1 at path /brokers/ids/1 with addresses: PLAINTEXT -> EndPoint(0.0.0.0,9093,PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-10-22 18:00:11,772] INFO [Kafka Server 1], started (kafka.server.KafkaServer)
+[2017-10-22 18:00:12,685] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions [conso-maisons,0],[conso-maison,0] (kafka.server.ReplicaFetcherManager)
+[2017-10-22 18:00:13,014] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions [conso-maisons,0],[conso-maison,0] (kafka.server.ReplicaFetcherManager)
+[2017-10-22 18:00:38,966] INFO Rolled new log segment for 'conso-maisons-0' in 191 ms. (kafka.log.Log)
+[2017-10-22 18:00:38,969] INFO Scheduling log segment 0 for log conso-maisons-0 for deletion. (kafka.log.Log)
+[2017-10-22 18:00:38,978] INFO Rolled new log segment for 'conso-maison-0' in 8 ms. (kafka.log.Log)
+[2017-10-22 18:00:38,979] INFO Scheduling log segment 0 for log conso-maison-0 for deletion. (kafka.log.Log)
+[2017-10-22 18:01:39,022] INFO Deleting segment 0 from log conso-maisons-0. (kafka.log.Log)
+[2017-10-22 18:01:39,024] INFO Deleting segment 0 from log conso-maison-0. (kafka.log.Log)
+[2017-10-22 18:01:39,044] INFO Deleting index /tmp/kafka-logs-2/conso-maisons-0/00000000000000000000.index.deleted (kafka.log.OffsetIndex)
+[2017-10-22 18:01:39,045] INFO Deleting index /tmp/kafka-logs-2/conso-maison-0/00000000000000000000.index.deleted (kafka.log.OffsetIndex)
+[2017-10-22 18:10:11,329] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-10-22 18:20:11,331] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-10-22 18:30:11,328] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-10-22 18:40:11,328] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-10-22 18:50:11,328] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-10-22 18:53:15,960] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:53:17,203] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:53:17,844] INFO 1 successfully elected as leader (kafka.server.ZookeeperLeaderElector)
+[2017-10-22 18:54:18,017] INFO [Kafka Server 1], shutting down (kafka.server.KafkaServer)
+[2017-10-22 18:54:19,405] INFO [Kafka Server 1], Starting controlled shutdown (kafka.server.KafkaServer)
+[2017-10-22 18:54:42,893] WARN [Kafka Server 1], Error during controlled shutdown, possibly because leader movement took longer than the configured socket.timeout.ms: Connection to 0.0.0.0:9092 (id: 0 rack: null) failed (kafka.server.KafkaServer)
+[2017-10-22 18:54:43,347] INFO re-registering broker info in ZK for broker 1 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-10-22 18:54:43,511] INFO Creating /brokers/ids/1 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:54:43,570] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:54:43,589] INFO Registered broker 1 at path /brokers/ids/1 with addresses: PLAINTEXT -> EndPoint(0.0.0.0,9093,PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-10-22 18:54:43,591] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-10-22 18:54:43,591] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-10-22 18:54:43,624] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:54:43,671] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:54:43,672] INFO 1 successfully elected as leader (kafka.server.ZookeeperLeaderElector)
+[2017-10-22 18:54:47,908] WARN [Kafka Server 1], Retrying controlled shutdown after the previous attempt failed... (kafka.server.KafkaServer)
+[2017-10-22 18:54:48,125] INFO re-registering broker info in ZK for broker 1 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-10-22 18:54:48,126] INFO Creating /brokers/ids/1 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:54:48,145] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:54:48,146] INFO Registered broker 1 at path /brokers/ids/1 with addresses: PLAINTEXT -> EndPoint(0.0.0.0,9093,PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-10-22 18:54:48,146] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-10-22 18:54:48,146] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-10-22 18:54:48,803] INFO New leader is 1 (kafka.server.ZookeeperLeaderElector$LeaderChangeListener)
+[2017-10-22 18:54:48,867] INFO [Kafka Server 1], Remaining partitions to move:  (kafka.server.KafkaServer)
+[2017-10-22 18:54:48,927] ERROR [KafkaApi-1] Error when handling request Name: ControlledShutdownRequest; Version: 1; CorrelationId: 0;ClientId:Some(1); BrokerId: 1 (kafka.server.KafkaApis)
+org.apache.kafka.common.errors.ControllerMovedException: Controller moved to another broker. Aborting controlled shutdown
+[2017-10-22 18:54:49,166] INFO re-registering broker info in ZK for broker 1 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-10-22 18:54:49,167] INFO Creating /brokers/ids/1 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:54:49,194] INFO [Kafka Server 1], Error code from controller: 11 (kafka.server.KafkaServer)
+[2017-10-22 18:54:49,221] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-10-22 18:54:49,237] INFO Registered broker 1 at path /brokers/ids/1 with addresses: PLAINTEXT -> EndPoint(0.0.0.0,9093,PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-10-22 18:54:49,237] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-10-22 18:54:49,238] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-10-22 18:54:49,589] INFO New leader is 1 (kafka.server.ZookeeperLeaderElector$LeaderChangeListener)
+[2017-10-22 18:54:49,783] INFO New leader is 1 (kafka.server.ZookeeperLeaderElector$LeaderChangeListener)
+[2017-10-22 18:54:54,195] WARN [Kafka Server 1], Retrying controlled shutdown after the previous attempt failed... (kafka.server.KafkaServer)
+[2017-10-22 18:54:54,558] ERROR [KafkaApi-1] Error when handling request Name: ControlledShutdownRequest; Version: 1; CorrelationId: 1;ClientId:Some(1); BrokerId: 1 (kafka.server.KafkaApis)
+org.apache.kafka.common.errors.ControllerMovedException: Controller moved to another broker. Aborting controlled shutdown
+[2017-10-22 18:54:54,560] INFO [Kafka Server 1], Remaining partitions to move:  (kafka.server.KafkaServer)
+[2017-10-22 18:54:54,561] INFO [Kafka Server 1], Error code from controller: 11 (kafka.server.KafkaServer)
+[2017-10-22 18:54:59,561] WARN [Kafka Server 1], Retrying controlled shutdown after the previous attempt failed... (kafka.server.KafkaServer)
+[2017-10-22 18:54:59,569] WARN [Kafka Server 1], Proceeding to do an unclean shutdown as all the controlled shutdown attempts failed (kafka.server.KafkaServer)
+[2017-10-22 18:54:59,681] INFO [Socket Server on Broker 1], Shutting down (kafka.network.SocketServer)
+[2017-10-22 18:54:59,731] INFO [Socket Server on Broker 1], Shutdown completed (kafka.network.SocketServer)
+[2017-10-22 18:54:59,795] INFO [Kafka Request Handler on Broker 1], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2017-10-22 18:54:59,974] INFO [Kafka Request Handler on Broker 1], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2017-10-22 18:55:00,032] INFO [ThrottledRequestReaper-Produce], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-10-22 18:55:00,324] INFO [ThrottledRequestReaper-Produce], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-10-22 18:55:00,324] INFO [ThrottledRequestReaper-Produce], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-10-22 18:55:00,324] INFO [ThrottledRequestReaper-Fetch], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-10-22 18:55:01,325] INFO [ThrottledRequestReaper-Fetch], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-10-22 18:55:01,325] INFO [ThrottledRequestReaper-Fetch], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-10-22 18:55:01,326] INFO [KafkaApi-1] Shutdown complete. (kafka.server.KafkaApis)
+[2017-10-22 18:55:01,329] INFO [Replica Manager on Broker 1]: Shutting down (kafka.server.ReplicaManager)
+[2017-10-22 18:55:01,330] INFO [ReplicaFetcherManager on broker 1] shutting down (kafka.server.ReplicaFetcherManager)
+[2017-10-22 18:55:01,332] INFO [ReplicaFetcherManager on broker 1] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2017-10-22 18:55:01,333] INFO [ExpirationReaper-1], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:01,454] INFO [ExpirationReaper-1], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:01,454] INFO [ExpirationReaper-1], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:01,455] INFO [ExpirationReaper-1], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:01,654] INFO [ExpirationReaper-1], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:01,654] INFO [ExpirationReaper-1], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:01,713] INFO [Replica Manager on Broker 1]: Shut down completely (kafka.server.ReplicaManager)
+[2017-10-22 18:55:01,724] INFO Shutting down. (kafka.log.LogManager)
+[2017-10-22 18:55:02,218] INFO Shutdown complete. (kafka.log.LogManager)
+[2017-10-22 18:55:02,235] INFO [GroupCoordinator 1]: Shutting down. (kafka.coordinator.GroupCoordinator)
+[2017-10-22 18:55:02,263] INFO [ExpirationReaper-1], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:02,458] INFO [ExpirationReaper-1], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:02,459] INFO [ExpirationReaper-1], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:02,459] INFO [ExpirationReaper-1], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:02,659] INFO [ExpirationReaper-1], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:02,660] INFO [ExpirationReaper-1], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-10-22 18:55:02,660] INFO [GroupCoordinator 1]: Shutdown complete. (kafka.coordinator.GroupCoordinator)
+[2017-10-22 18:55:02,753] INFO [Kafka Server 1], shut down completed (kafka.server.KafkaServer)
